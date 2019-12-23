@@ -8,7 +8,7 @@
 export function getUnique(rowArr, columnArr) {
   let number = Math.ceil(Math.random() * 9);
 
-  while (rowArr.includes(number) ) {
+  while (rowArr.includes(number)) {
     number = Math.ceil(Math.random() * 9);
   }
 
